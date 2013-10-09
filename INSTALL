@@ -1,0 +1,10 @@
+api_producer_driver-redis requires the following:
+
+* PHP (tested with 5.4)
+  * phpredis (https://github.com/nicolasff/phpredis)
+* Redis (tested with 2.6)
+* A webserver (tested with Apache 2.2)
+* api_producer (https://github.com/kimor79/api_producer)
+
+Copy the files in php/ to <php include path>/api_producer/. E.g.:
+  cp -R php /usr/local/include/php/api_producer
